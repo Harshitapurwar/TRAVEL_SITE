@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:sans-serif
+
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(158, 108, 42);
+}
+.logo{
+   font-size: 30px;
+   font-style: inherit;
+   shape-margin: 18px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    padding:5px 12px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    border-bottom: 4px solid white;
+    transition: 0.2s;
+}
+.signup a{
+    text-decoration: none;
+    color:blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:8px 12px;
+    border:2px solid white;
+}
+.signup a:hover{
+    background-color: white;
+    transition: 0.2s;
+}
+.body{
+    width:100%;
+    height: 90vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50),url(lucknow.jfif));
+    background-position: center;
+    background-size: cover;
+    background-image: url("Uttar\ Pradesh.png");
+}
+.heading {
+   width: 100%;
+   text-align: center;
+   color: black;
+     
+}
+.heading h1{
+    font-size:40px;
+    
+}
+.heading p{
+    font-weight: bold;
+    align-items: center;
+
+}
+.heading a{
+    
+    text-decoration: none;
+    color:blueviolet;
+    font-weight: bold;
+    font-size:25px;
+    border-radius: 15px;
+    padding:1px 18px;
+    background-color: #fff;
+    border:2px solid violet;
+}
+.heading a:hover{
+    letter-spacing:3px;
+    transition: 0.2s;
+    
+
+}
+.heading h3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bolder;
+}
+.tours{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.place{
+  display: inline;
+  text-align: center;
+  border-radius: 12px;
+  padding: 5px;
+}
+.place h2{
+    color:rgb(24, 17, 25);
+    font-size: 24px;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    padding:20px 20px;
+    background-color: #a6c9d3;
+    padding: 8px 8px 2px 2px;
+}
+.place a{
+    text-decoration: none;
+    color:rgb(24, 17, 25);
+    font-weight: bold;
+    border-radius: 12px;
+    padding:12px 30px;
+    background-color: #a6c9d3;
+}
+.place a:hover{
+    background-color: burlywood;
+    letter-spacing: 3px;
+    transition: 0.2s;
+
+}
+/* .heading h3{
+    font-weight: bolder;
+    font-size: 22px;
+    align-items: center;
+    padding: 20px 0px;
+}
+.heading h4{
+    color:rgb(179, 63, 63);
+    font-style: oblique;
+    justify-content: center;
+} */
+.footer{
+    width: 100%;
+    height:50px;
+    background-color:bisque ;
+    color: rgb(158, 108, 42);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
